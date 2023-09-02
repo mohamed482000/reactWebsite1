@@ -1,0 +1,190 @@
+/* common all pages*/
+.active + span {
+    width: 80%;
+    height: 2px;
+    border-radius: 2px;
+    margin-top: 2px;
+    background-color: #feb000;
+    display: block;
+}
+/* header compo */
+.header-content{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.brand{
+    margin-bottom: 11px;
+}
+.brand img{
+    background-size: contain;
+    width: 123px;
+    height: 26px;
+    object-fit: cover;
+    margin-bottom: 8px;
+}
+
+.header-nav > ul li{
+    font-size: 15px;
+    display: inline-block;
+    margin-right: 30px;
+    padding-bottom: 20px; /* لحل مشكلة اما تعمل هافر و تيجي تنزل المنيو تختفي*/
+}
+
+.header-content .header-nav{
+    text-align: right;
+    
+}
+.header-nav .for-position{
+    position: relative;
+}
+.header-nav ul li ul{
+     position: absolute;
+     visibility: hidden;
+     top:30px;
+     opacity: 0;
+     width: 170px;
+     box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.2);
+     padding-left: 0;
+     text-align: left;
+     padding: 13px 0px 13px 20px;
+     border-radius: 6px;
+}
+.header-nav ul li ul li{
+    display: block;
+    padding-right: 0;
+    margin-bottom: -15px;
+    font-size: 13px;
+}
+.header-nav ul .for-position:hover > ul{
+    visibility: visible;
+    opacity: 1;
+}
+.header-nav ul li ul li a:hover{
+    color: #feb000;
+}
+
+
+.hand-made-nav {
+    display: none;
+}
+.real-header{
+    position: fixed;
+    width: 100%;
+    height: 85px;
+    background-color: #fff;
+    box-shadow: 2px 0 20px rgba(0, 0, 0, 0.2);
+    z-index: 101;
+}
+.replace-the-header{
+    width: 100%;
+    height: 85px;
+}
+
+/* resposive nav */
+@media (max-width:1187px){
+    .header-content .header-nav{
+        padding: 15px 0 0 0;
+    }
+    .hand-made-nav {
+        display: none;
+        visibility: hidden;
+    }
+}
+@media (max-width:1000px) {
+    .small-container{
+        padding: 0 20px;
+        margin: auto 40px auto 40px;
+        max-width: 94%;
+    }
+    .header-content div{
+        display: inline-block;
+    }
+    .brand{
+        width: 17%;
+        padding: 0;
+    }
+    .header-content .header-nav{
+        width: 80%;
+        padding: 10px 0 0 0;
+    }
+    .header-nav > ul{
+        padding: 0;
+    }
+    .hand-made-nav {
+        display: none;
+        visibility: hidden;
+    }
+}
+@media (max-width:955px) {
+    .small-container{
+        padding: 0 ;
+        margin: auto 40px auto 40px;
+        max-width: 94%;
+    }
+    .hand-made-nav{
+        display: none;
+        visibility: hidden;
+    }
+    .brand img{
+        margin-bottom: 0;
+    }
+    
+}
+@media (max-width:911px) {
+    .header-content .header-nav{
+        display: none;
+    }
+    .small-container{
+        padding:0;
+        margin: auto 0 0 8%;
+       width: 80vw;
+       
+    }
+    .header-content{
+        justify-content: space-between;
+        
+    }
+    .brand img{
+        margin-bottom: 0;
+    }
+
+    .hand-made-nav ,.hand-made-nav2{
+        width: 20px;
+        height: 30px;
+        display: block;
+        visibility: visible;
+        margin-left: -40px;
+        padding-left: 0;
+        cursor: pointer;
+    }
+    .hand-made-nav span , .hand-made-nav2 span{
+        background-color: #011a3e;
+        height: 2.1px;
+        width: 25px;
+        margin-bottom: 7px;
+        display: block;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+    .hand-made-nav2 span.first-span{
+        width: 14px;
+    }
+    .hand-made-nav span.third-span{
+        width: 14px;
+    }
+    
+}
+@media (max-width:768px){
+    .header-content{
+        padding-top: 30px;
+    }
+    .real-header{
+        height: 80px;
+    }
+    .brand img{
+        margin-bottom: 0;
+    }
+}
+

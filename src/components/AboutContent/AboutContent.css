@@ -1,0 +1,130 @@
+.first-section-about{
+    padding-top: 130px;
+    height: 70vh;
+}
+.first-section-about div{
+    margin-top: 20px;
+}
+.first-section-about h1{
+   color: #011a3e;
+   font-weight: 700;
+   font-size: 58px;
+}
+.first-section-about a{
+    text-decoration: none;
+    color: #feb000;
+}
+.first-section-about a + i{
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0 10px;
+    color: #feb000 ;
+}
+.first-section-about span{
+    font-weight: 500;
+    font-size: 16px;
+    color: #feb000 ;
+}
+/* second section about */
+
+.about-second-section-content{
+    margin-top: 8%;
+    padding:18px 0 0 10px;
+    background-image: url(../../assets/images/download1.png);
+    background-repeat: no-repeat;
+}
+.second-about-section h2{
+    margin-bottom: 3vh;
+    font-weight: 700;
+    font-size: 50px;
+    color: #011a3e;
+    width: 100%;
+}
+.second-about-section p {
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.bars h4{
+    font-weight: 400;
+    display: inline-block;
+    margin: 0.3em;
+    text-transform: uppercase;
+    display: inline-block;
+}
+.bars li{
+    margin: 1.2em 0;
+    list-style: none;
+}
+.bars li div{
+    display: flex;
+    justify-content: space-between;
+}
+.bars li div span{
+    color: #feb000;
+    font-size: 20px;
+    font-weight: 500;
+}
+.bars li h4{
+    font-weight: 600;
+    font-size: 20px;
+
+}
+.bars .bar{
+    background: #f6f6f6;
+    display: block;
+    border-radius: 1em;
+    overflow: hidden;
+    height: 1.4em;
+    position: relative;
+}
+.bars .prog{
+    position: absolute;
+    left: 0;
+    transition: 1s;
+    top: 50%;
+    height: 100%;
+    margin: 0 0.3em;
+    transform: translateY(-50%);
+    border-radius: 1em;
+    float: left;
+}
+.bars .prog span{
+    position: absolute;
+    width: 25px;
+    box-shadow: 1px 1px 10px #f0c86c   , 1px 1px 10px #f0c86c  ;
+    height: 100%;
+    right: 0;
+    border-radius: 50%;
+    background-color: #f89e00;
+}
+.prog{
+    width: 10%;
+    background: #feb000;
+}
+
+.proginimation{
+    width: 85%;
+}
+.proginimation1{
+    width: 75%;
+}
+.proginimation2{
+    width: 90%;
+}
+.proginimation3{
+    width: 65%;
+}
+.about-second-section-img{
+    padding-top: 100px;
+}
+.about-second-section-img img{
+    width: 100%;
+    height: 100%;
+}
+@media (min-width:1200px) {
+    .seven-section .seven-section-header h2{
+        width: 80%;
+    }
+}
+    
