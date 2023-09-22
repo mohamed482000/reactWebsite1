@@ -149,7 +149,7 @@ function HomeContent() {
           </div>
           <div className="item first-section row">
             <div className="first-section-content col-lg-5">
-              <h2 className="text-capitalize">we are creative</h2>
+              <h2 className="text-capitalize">we are creativzxcxe</h2>
               <h2 className="text-capitalize"> deneb agency</h2>
               <h5 className="text-capitalize">
                 we are professional freelance wep designer
