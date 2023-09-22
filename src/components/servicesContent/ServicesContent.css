@@ -81,6 +81,7 @@
             padding-left: 4%;
             
        }
+       
 }
 /* second section content */
 .second-section-services-content .second-section-services-contentt{
@@ -172,6 +173,12 @@
         padding-left: 15px;
     }
 }
+@media (max-width:510px){
+    .second-section-services div div{
+        width: 45%;
+    }
+}
+
 /* third section services */
 .third-section-services-header{
     width: 55%;
