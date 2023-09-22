@@ -174,7 +174,7 @@
     }
 }
 @media (max-width:510px){
-    .second-section-services div div{
+    .second-section-services div .secsection-services-item{
         width: 45%;
     }
 }
