@@ -460,7 +460,7 @@
         width: 100%;
     }
     .fifth-section-buttoms > button , .fifth-section .third-button{
-        width: 80%;
+        width: 85%;
         margin-left: 25px;
     }
     .fifth-section-buttoms > button:nth-child(1),.fifth-section-buttoms > button:nth-child(2){
@@ -553,7 +553,7 @@
 @media (max-width:777px) {
     .sex-section .sex-section-item{
         max-width: 92%;
-        margin-left: 20px;
+        margin-left: 17px;
         margin-bottom: 40px;
     }
    
